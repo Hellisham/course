@@ -1,11 +1,10 @@
 package puppy
 
-import "fmt"
-
 func Bark() string {
-	fmt.Println("woof")
+	return "woof!"
 }
 
 func barks() string {
-	fmt.Println("woof! woof! woof!")
+	return "woof! woof! woof!"
+
 }
