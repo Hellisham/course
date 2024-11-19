@@ -1,9 +1,10 @@
-package puppy
+package main
 
-func Bark() string {
-	return "woof!"
-}
+import "fmt"
 
-func Barks() string {
-	return "woof! woof! woof!"
+func main() {
+	a := 121
+	for _, v := range a {
+		fmt.Println(v)
+	}
 }
